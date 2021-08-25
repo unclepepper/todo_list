@@ -1,0 +1,14 @@
+GET http://localhost:5000/todos HTTP/1.1
+
+###
+
+POST http://localhost:5000/todos HTTP/1.1
+
+###
+
+
+DELETE http://localhost:5000/todos/61251bd3c504e21d184bc89c HTTP/1.1
+
+{
+    "title": "My task number 03"
+}
